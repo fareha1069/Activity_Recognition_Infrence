@@ -1,0 +1,13 @@
+alphapose_repo: "C:\\Users\\FarehaIllyas\\Desktop\\AlphaPose_preproces"
+alphapose_output_dir: "C:\\Users\\FarehaIllyas\\Desktop\\AlphaPose_preproces\\real_infrence"
+stgcn_model_path: "C:\\Users\\FarehaIllyas\\Desktop\Pose_Based_Fall_Detection\\work_dir\\alphapose-13\train\\epoch30_model.pt"
+device: "cpu"
+window_size: 35
+frame_rate: 25
+temp_dir: "C:\\Users\\FarehaIllyas\\Desktop\\Pose_Based_Fall_Detection\\tmp"
+
+alphapose:
+  python_path: "C:/Users/FarehaIllyas/Desktop/AlphaPose_preproces/alphapose-env/Scripts/python.exe"
+  demo_script: "C:/Users/FarehaIllyas/Desktop/AlphaPose_preproces/AlphaPose/scripts/demo_inference.py"
+  cfg: "C:/Users/FarehaIllyas/Desktop/AlphaPose_preproces/configs/coco/resnet/256x192_res50_lr1e-3_1x.yaml"
+  checkpoint: "C:/Users/FarehaIllyas/Desktop/AlphaPose_preproces/AlphaPose/pretrained_models/fast_res50_256x192.pth"
